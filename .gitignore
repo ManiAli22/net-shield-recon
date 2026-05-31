@@ -1,0 +1,9 @@
+# Ignore local log files and test artifacts
+logs/ 
+tests/*.pcap
+test/*.txt
+*.log
+
+# Ignore python cache 
+__pycache__/
+*.pyc
